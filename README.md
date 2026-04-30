@@ -15,7 +15,7 @@ CampusExchange/
 ### 1. Backend Setup
 
 ```bash
-cd server
+cd backend
 npm install
 cp .env.example .env
 # Fill in your MONGO_URI, JWT_SECRET, and Cloudinary credentials in .env
@@ -25,7 +25,7 @@ npm run dev
 ### 2. Frontend Setup
 
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 ```
